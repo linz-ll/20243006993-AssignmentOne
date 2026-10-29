@@ -33,6 +33,13 @@ public class DetailActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Populates the detail screen using the category index
+     * received from MainActivity.
+     *
+     * The same index is used to retrieve the corresponding
+     * image, title and content from the resource arrays.
+     */
     private void populateDetail() {
 
         // Step 1: Receive the selected category index
