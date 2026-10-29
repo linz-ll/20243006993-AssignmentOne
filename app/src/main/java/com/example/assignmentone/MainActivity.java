@@ -11,6 +11,8 @@ import androidx.core.view.WindowInsetsCompat;
 import android.view.View;
 import android.widget.Toast;
 
+import android.content.Intent;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -26,39 +28,39 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // Handle Facilities button click
+    // Open Facilities details
     public void onFacilitiesClick(View view) {
-        Toast.makeText(
-                this,
-                "Facilities clicked",
-                Toast.LENGTH_SHORT
-        ).show();
+        openDetailActivity(0);
     }
 
-    // Handle Events button click
+    // Open Events details
     public void onEventsClick(View view) {
-        Toast.makeText(
-                this,
-                "Events clicked",
-                Toast.LENGTH_SHORT
-        ).show();
+        openDetailActivity(1);
     }
 
-    // Handle Clubs button click
+    // Open Clubs details
     public void onClubsClick(View view) {
-        Toast.makeText(
-                this,
-                "Clubs clicked",
-                Toast.LENGTH_SHORT
-        ).show();
+        openDetailActivity(2);
     }
 
-    // Handle Support button click
+    // Open Support details
     public void onSupportClick(View view) {
-        Toast.makeText(
-                this,
-                "Support clicked",
-                Toast.LENGTH_SHORT
-        ).show();
+        openDetailActivity(3);
+    }
+
+    // Start DetailActivity and pass the selected category index
+    private void openDetailActivity(int categoryIndex) {
+
+        Intent intent = new Intent(
+                MainActivity.this,
+                DetailActivity.class
+        );
+
+        intent.putExtra(
+                DetailActivity.EXTRA_CATEGORY_INDEX,
+                categoryIndex
+        );
+
+        startActivity(intent);
     }
 }
