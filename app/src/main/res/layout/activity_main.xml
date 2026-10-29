@@ -46,7 +46,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="#F3EFF4">
+        android:background="@color/campus_green">
 
         <!-- First row -->
         <LinearLayout
@@ -69,7 +69,7 @@
                     android:layout_weight="4"
                     android:src="@drawable/img_btn_facilities"
                     android:scaleType="centerInside"
-                    android:background="#AFAFAF"
+                    android:background="@drawable/campus_button_selector"
                     android:contentDescription="@string/facilities" />
 
                 <TextView
@@ -78,7 +78,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/facilities"
-                    android:textColor="#000000" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
 
@@ -96,7 +96,7 @@
                     android:layout_weight="4"
                     android:src="@drawable/img_btn_events"
                     android:scaleType="centerInside"
-                    android:background="#AFAFAF"
+                    android:background="@drawable/campus_button_selector"
                     android:contentDescription="@string/events" />
 
                 <TextView
@@ -105,7 +105,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/events"
-                    android:textColor="#000000" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
 
@@ -132,7 +132,7 @@
                     android:layout_weight="4"
                     android:src="@drawable/img_btn_clubs"
                     android:scaleType="centerInside"
-                    android:background="#AFAFAF"
+                    android:background="@drawable/campus_button_selector"
                     android:contentDescription="@string/clubs" />
 
                 <TextView
@@ -141,7 +141,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/clubs"
-                    android:textColor="#000000" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
 
@@ -159,7 +159,7 @@
                     android:layout_weight="4"
                     android:src="@drawable/img_btn_support"
                     android:scaleType="centerInside"
-                    android:background="#AFAFAF"
+                    android:background="@drawable/campus_button_selector"
                     android:contentDescription="@string/support" />
 
                 <TextView
@@ -168,7 +168,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/support"
-                    android:textColor="#000000" />
+                    android:textColor="@android:color/white" />
 
             </LinearLayout>
 

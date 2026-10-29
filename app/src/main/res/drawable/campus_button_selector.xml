@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Button pressed: light green -->
+    <item
+        android:state_pressed="true"
+        android:drawable="@color/campus_light_green" />
+
+    <!-- Default button state: green -->
+    <item
+        android:drawable="@color/campus_green" />
+
+</selector>
