@@ -12,4 +12,10 @@
     <string name="clubs">Clubs</string>
     <string name="support">Support</string>
 
+
+    <!-- DetailActivity placeholder text -->
+    <string name="detail_title_placeholder">This is a title</string>
+    <string name="detail_content_placeholder">This is content</string>
+
+
 </resources>
