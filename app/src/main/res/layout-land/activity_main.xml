@@ -63,7 +63,8 @@
                 android:src="@drawable/img_btn_facilities"
                 android:scaleType="centerInside"
                 android:background="@drawable/campus_button_selector"
-                android:contentDescription="@string/facilities" />
+                android:contentDescription="@string/facilities"
+                android:onClick="onFacilitiesClick" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -90,7 +91,8 @@
                 android:src="@drawable/img_btn_events"
                 android:scaleType="centerInside"
                 android:background="@drawable/campus_button_selector"
-                android:contentDescription="@string/events" />
+                android:contentDescription="@string/events"
+                android:onClick="onEventsClick" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -117,7 +119,8 @@
                 android:src="@drawable/img_btn_clubs"
                 android:scaleType="centerInside"
                 android:background="@drawable/campus_button_selector"
-                android:contentDescription="@string/clubs" />
+                android:contentDescription="@string/clubs"
+                android:onClick="onClubsClick" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -144,7 +147,8 @@
                 android:src="@drawable/img_btn_support"
                 android:scaleType="centerInside"
                 android:background="@drawable/campus_button_selector"
-                android:contentDescription="@string/support" />
+                android:contentDescription="@string/support"
+                android:onClick="onSupportClick" />
 
             <TextView
                 android:layout_width="match_parent"
